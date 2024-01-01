@@ -4,6 +4,7 @@
 MainComponent::MainComponent()
 {
     setSize (600, 400);
+    setWantsKeyboardFocus(true);
 }
 
 MainComponent::~MainComponent()
@@ -26,4 +27,14 @@ void MainComponent::resized()
     // This is called when the MainComponent is resized.
     // If you add any child components, this is where you should
     // update their positions.
+}
+
+bool MainComponent::keyPressed(const juce::KeyPress& key)
+{
+    if (key.isKeyCode(juce::KeyPress::spaceKey))
+    {
+        DBG("spaceKey");
+    }
+
+    return false;
 }
