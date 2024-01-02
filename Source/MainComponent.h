@@ -1,6 +1,7 @@
-#pragma once
+#pragma once 
 
 #include <JuceHeader.h>
+#include "StockData.h"
 
 //==============================================================================
 /*
@@ -19,6 +20,13 @@ public:
     void resized() override;
 
     bool keyPressed(const juce::KeyPress& key) override;
+
+    juce::TextEditor textEditorTest;
+
+    //stock market data
+    juce::StringArray fileLines;
+    int currentLine = 0;
+    StockData stockData;
 private:
     //==============================================================================
     // Your private member variables go here...

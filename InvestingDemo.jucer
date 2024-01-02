@@ -4,6 +4,8 @@
               addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1">
   <MAINGROUP id="fj1nIS" name="InvestingDemo">
     <GROUP id="{0A3E8534-F89E-B1EE-7B82-DC652009D727}" name="Source">
+      <FILE id="LdhPMb" name="StockData.cpp" compile="1" resource="0" file="Source/StockData.cpp"/>
+      <FILE id="JqcEoe" name="StockData.h" compile="0" resource="0" file="Source/StockData.h"/>
       <FILE id="v7SJcy" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
       <FILE id="BcRsqw" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
       <FILE id="IfU8Yq" name="MainComponent.cpp" compile="1" resource="0"
